@@ -10,7 +10,7 @@
 
     @font-face {
         font-family: 'Orn';
-        src: url('https://ran052.github.io/font/ornaments-labels-and-frames.ttf') format('truetype');
+        src: url('https://ran052.github.io/font/ornaments-labels-and-frames.ttf') format('opentype');
         font-weight: normal;
         font-style: normal;
     }
