@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -8,12 +8,13 @@
     <style>
     @charset "utf-8";
 
-    @font-face {
-        font-family: 'Orn';
-        src: url('https://ran052.github.io/font/ornaments-labels-and-frames.ttf') format('opentype');
-        font-weight: normal;
-        font-style: normal;
-    }
+@font-face {
+    font-family: 'Orn';
+    src: url('https://rawcdn.githack.com/ran052/font/main/ornaments-labels-and-frames.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
     * {
         margin: 0;
@@ -300,20 +301,4 @@
 
     </style>
 </head>
-<body>
 
-<div class="chat-container">
-    <div class="left">文章</div>
-    <div class="Ran">本文</div>
-    <div class="orn">O</div>
-    <div class="bk">ボカシ</div>
-
-    <details class="pattern2">
-        <summary class="pattern2-summary">表題</summary>
-        <div class="folded-content">文章</div>
-    </details>
-
-</div>
-
-</body>
-</html>
